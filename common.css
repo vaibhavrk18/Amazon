@@ -1,0 +1,29 @@
+body{
+    background-color:white;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* CDN Font from googlefonts : Link given in the head tag.*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.arrange-float-left{
+    float:left;
+}
+
+.wid-25{
+    width: 25%;
+}
+.wid-33{
+    width: 33.33%;
+}
+.wid-50{
+    width: 50%;
+}
+.wid-75{
+    width: 75%;
+}
+.next-row{
+    clear: both; /* it very important : do not remove this without checking.*/
+}

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Amazon Webpage</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="common.css" rel="stylesheet" />
+    <!-- CDN Font from googlefonts.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- font awesome cdnjs link for Icons.  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <div class="header">
+            <div class="logo arrange-float-left wid-25">
+                <h1>Amazon</h1>
+            </div>
+
+            <div class="search-product arrange-float-left wid-50">
+                <input type="search" placeholder="search products here">
+                <button><i
+                        class="fa-solid fa-magnifying-glass"></i></button><!--Search Icon used here: from fontawesome-->
+            </div>
+
+            <div class="selected-product arrange-float-left wid-25">
+                <button class="common-btn"><span>
+                        <i class="fa-solid fa-cart-arrow-down"></i> <!--Cart Icon used here: from fontawesome-->
+                        0</span></button>
+                <button class="common-btn"><span>
+                        <i class="fa-solid fa-heart"></i> <!--Heart icon used from font awesome.-->
+                        0</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="full-body-banner-wrapper">
+        <div class="category-home-menu-wrapper next-row">
+            <div class="banner-area category-list arrange-float-left wid-25">
+                <div class="list-header">
+                    <h4>Categories</h4>
+                    <span>
+                        <i class="fa-solid fa-angle-down"></i> <!--This is the Down-arrow Icon from fontawesome.com-->
+                    </span>
+                </div>
+                <ul>
+                    <li><a href="#">Shirts</a></li>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Laptop</a></li>
+                    <li><a href="#">SmartPhones</a></li>
+                    <li><a href="#">Jackets</a></li>
+                    <li><a href="#">Kitchens</a></li>
+                    <li><a href="#">Toys</a></li>
+                    <li><a href="#">Electronics</a></li>
+                </ul>
+            </div>
+            <div class="wid-75 arrange-float-left">
+                <div class="shop-menu">
+                    <ul class="left-menu-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li class="dropdown-head"><a href="#">Product Details
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown">
+                                <li><a href="#">Cart</a></li>
+                                <li><a href="#">Checkout</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="right-menu-list">
+                        <li><a href="">Login</a></li>
+                        <li><a href="">Register</a></li>
+                    </ul>
+                </div>
+                <div class="banner">
+                    <img src="https://img.freepik.com/free-photo/dark-haired-woman-with-red-lipstick-smiles-leans-stand-with-clothes-holds-package-pink-background_197531-17609.jpg?t=st=1718990315~exp=1718993915~hmac=62dd81ca26d08da22634907420c5b647eb494d53e528be623dd7cfe8e829c011&w=996"
+                        alt="Image not loaded properly">
+                    <div class="banner-text">
+                        <h4>30% Off on your first order!</h4>
+                        <h3>Fashionable Clothes</h3>
+                        <a class="shop-now" href="#">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-icon-wrapper next-row">
+            <div class="wid-25 arrange-float-left">
+                <div class="features-points">
+                    <span class="icon-text-wrap">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Quality Products</span>
+                    </span>
+                </div>
+            </div>
+            <div class="wid-25 arrange-float-left">
+                <div class="features-points">
+                    <span class="icon-text-wrap">
+                        <i class="fa-solid fa-shipping-fast"></i>
+                        <span>Free Shipping</span>
+                    </span>
+                </div>
+            </div>
+            <div class="wid-25 arrange-float-left">
+                <div class="features-points">
+                    <span class="icon-text-wrap">
+                        <i class="fa-solid fa-exchange"></i>
+                        <span>14 Days Return</span>
+                    </span>
+                </div>
+            </div>
+            <div class="wid-25 arrange-float-left">
+                <div class="features-points">
+                    <span class="icon-text-wrap">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span>24/7 Support</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row-img-catalog-wrapper next-row">
+            <div class="wid=33 arrange-float-left product-row">
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://m.media-amazon.com/images/I/71ad8PSy5kL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="Men's image" />
+                    </div>
+                    <div class="category-type">
+                        <h5>Chinese Collar | Casual | Plain</h5>
+                    </div>
+                    <div class="product-count">
+                        20 Products
+                    </div>
+                </div>
+            </div>
+            <div class="wid=33 arrange-float-left">
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://m.media-amazon.com/images/I/61NloRw77IL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="Men's image" />
+                    </div>
+                    <div class="category-type">
+                        <h5>Men Solid Cotton Blend Solid Kurta</h5>
+                    </div>
+                    <div class="product-count">
+                        20 Products
+                    </div>
+                </div>
+            </div>
+            <div class="wid=33 arrange-float-left">
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://m.media-amazon.com/images/I/61xADFs7mbL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="Men's image" />
+                    </div>
+                    <div class="category-type">
+                        <h5>Men's Dresses</h5>
+                    </div>
+                    <div class="product-count">
+                        20 Products
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-img-catalog-wrapper next-row">
+            <div class="wid=33 arrange-float-left product-row">
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://m.media-amazon.com/images/I/71KwC73OHaL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="Men's image" />
+                    </div>
+                    <div class="category-type">
+                        <h5>Chinese Collar | Casual | Plain</h5>
+                    </div>
+                    <div class="product-count">
+                        20 Products
+                    </div>
+                </div>
+            </div>
+            <div class="wid=33 arrange-float-left">
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://m.media-amazon.com/images/I/61rjClacFHL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="Men's image" />
+                    </div>
+                    <div class="category-type">
+                        <h5>Men Solid Cotton Blend Solid Kurta</h5>
+                    </div>
+                    <div class="product-count">
+                        20 Products
+                    </div>
+                </div>
+            </div>
+            <div class="wid=33 arrange-float-left">
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://m.media-amazon.com/images/I/713wEcCIKRL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="Men's image" />
+                    </div>
+                    <div class="category-type">
+                        <h5>Men's Dresses</h5>
+                    </div>
+                    <div class="product-count">
+                        20 Products
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-img-catalog-wrapper next-row">
+            <div class="wid=33 arrange-float-left product-row">
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://m.media-amazon.com/images/I/71ad8PSy5kL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="Men's image" />
+                    </div>
+                    <div class="category-type">
+                        <h5>Chinese Collar | Casual | Plain</h5>
+                    </div>
+                    <div class="product-count">
+                        20 Products
+                    </div>
+                </div>
+            </div>
+            <div class="wid=33 arrange-float-left">
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://m.media-amazon.com/images/I/61NloRw77IL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="Men's image" />
+                    </div>
+                    <div class="category-type">
+                        <h5>Men Solid Cotton Blend Solid Kurta</h5>
+                    </div>
+                    <div class="product-count">
+                        20 Products
+                    </div>
+                </div>
+            </div>
+            <div class="wid=33 arrange-float-left">
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://m.media-amazon.com/images/I/61xADFs7mbL._AC_UL480_FMwebp_QL65_.jpg"
+                            alt="Men's image" />
+                    </div>
+                    <div class="category-type">
+                        <h5>Men's Dresses</h5>
+                    </div>
+                    <div class="product-count">
+                        20 Products
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+    </div>
+</body>
+
+</html>
+
+
+
+
+.logo {
+    flex: 0 0 25%;
+    display: flex;
+    justify-content:center;
+    font-weight: 200;
+    margin-bottom: 2px;
+    padding: 0;
+}
+.logo h1{
+    color:black;
+    float: left;
+    margin-top: 0;
+    font-size: 40px;
+}   
+.header{
+    margin-top: 25px;
+    min-height: 60px;
+}
+.search-product input{
+    width: 88%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-right: none;
+    outline: none;
+    margin-right: -15px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.search-product button{
+    width: 12%;
+    height: 40px;
+    border-left: none;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+.search-product{
+    flex: 0 0 25%;
+    display: flex;
+    justify-content: center;
+}
+.selected-product{
+    flex:0 0 25%;
+    display: flex;
+    justify-content: center;
+}
+.selected-product button{
+    height: 40px;
+    width: 60px;
+}
+
+.common-btn{
+    font-size: 15px;
+}
+/* Get the icons from this URL: https://cdnjs.com/libraries/font-awesome*/
+.fa-solid{
+    margin-right: 10px;
+    font-size: 18px;
+}
+.full-body-banner-wrapper{
+    border-top  : 1px solid #ddd;
+}
+.list-header{
+    height: 60px;
+    border: 2px dashed #ddd;
+}
+.list-header h4{
+    font-size: 18px;
+    display:inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 500;
+}
+.list-header span{
+    float: right;
+    padding: 23px;
+}
+.category-list ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        border: 1px solid #ddd;
+}
+.category-list ul li{
+    border-bottom: 1px solid #ddd;
+    padding: 10px 40px;
+}
+.category-list ul li a{
+    font-weight: 400;
+    color: #333;
+    text-decoration: none;
+}
+.shop-menu{
+    display: flex;
+}
+.left-menu-list{
+    width: 70%;
+}
+
+.right-menu-list{
+    width: 30%;
+    direction: rtl;
+}
+.shop-menu ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.shop-menu ul li{
+    min-width: 75px;
+    padding: 20px;
+}
+.shop-menu ul li a{
+    color:#333;
+    font-weight: 400;
+    text-decoration:none;
+}
+.shop-menu ul li a:hover{
+    color: orange;
+
+}
+.shop-menu ul.dropdown{
+    display: none;
+    border: 1px solid #ddd;
+    display: none;
+    position: absolute;
+    box-shadow: #ddd 1px 1px 3px;
+}
+.dropdown-head:hover ul.dropdown{
+    display: block;
+}
+.banner{
+    position:relative;
+    height: 400px;
+    float: left;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.banner-text{
+    color: #fff;
+    background-color: #ff8e005c;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.banner-text h4{
+    align-items: top;
+    color: #fff;
+    padding-left: 10%;
+    padding-right: 70%;
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.banner-text h3{
+    margin: 0;
+    font-size: 50px;
+}
+.banner-text a.shop-now{
+    background-color: #fff;
+    color: #333;
+    font-weight: 500;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.features-points{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
+.icon-text-wrap{
+    padding: 30px;
+    display: flex;
+}
+.icon-text-wrap i{
+    font-size: 20px;
+    color: orange;
+}
+.icon-text-wrap span{
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.product-row{
+    margin-bottom: 30px;
+}
+.category-item{
+    /* optional here: */ border: 1px solid #ccc; 
+    padding: 8px;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-top: 1x;
+}
+.category-item .product-count{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.category-item.category-image img{
+    width: 100%;
+}
+.category-item .category-type h5{
+    color: darkred;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+body{
+    background-color:white;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* CDN Font from googlefonts : Link given in the head tag.*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.arrange-float-left{
+    float:left;
+}
+
+.wid-25{
+    width: 25%;
+}
+.wid-33{
+    width: 33.33%;
+}
+.wid-50{
+    width: 50%;
+}
+.wid-75{
+    width: 75%;
+}
+.next-row{
+    clear: both; /* it very important : do not remove this without checking.*/
+}
